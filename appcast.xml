@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>TimeCal</title>
+        <item>
+            <title>0.1.1</title>
+            <pubDate>Mon, 10 Aug 2026 16:07:23 -0700</pubDate>
+            <sparkle:version>159</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+    :root { color-scheme: light dark; }
+    body {
+        font: 13px/1.5 -apple-system, system-ui, sans-serif;
+        color: light-dark(#1d1d1f, #e8e8ed);
+        margin: 14px 16px;
+    }
+    h2 {
+        font-size: 15px;
+        margin: 18px 0 6px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid light-dark(#00000018, #ffffff22);
+    }
+    h2:first-child { margin-top: 0; }
+    p, li { margin: 4px 0; }
+    ul { margin: 6px 0; padding-left: 22px; }
+    b, strong { font-weight: 600; }
+    code {
+        font: 12px ui-monospace, monospace;
+        background: light-dark(#0000000d, #ffffff14);
+        border-radius: 3px;
+        padding: 0 3px;
+    }
+</style>
+</head>
+<body>
+<h2>Welcome to the TimeCal beta</h2>
+<p>The first self-updating build. TimeCal now checks for updates daily and
+installs them in place, so this is the last version you'll ever download by
+hand. You can check manually any time via <b>File &gt; Check for Updates…</b></p>
+
+<h2>What TimeCal is</h2>
+<ul>
+    <li>Every calendar on your Mac, on one butter-smooth timeline: pan and
+        zoom from years down to minutes.</li>
+    <li>Direct-manipulation editing with explicit save: drag, resize,
+        duplicate, paint new events; nothing commits until you confirm.</li>
+    <li>Bookmarks (including locked multi-range views), an event template
+        library, calendar groups, and pinned floating event cards.</li>
+</ul>
+
+<h2>Feedback</h2>
+<p>Send anything, bugs, ideas, confusion, to
+<a href="mailto:evan@sandpipermediagroup.com">evan@sandpipermediagroup.com</a>.</p>
+
+</body>
+</html>
+]]></description>
+            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.1-b159-a78fdbd.zip" length="2317611" type="application/octet-stream" sparkle:edSignature="c2t8GPB4INYx9pg0V9dbfWCeBMJgqqSfYhWLwqqOzXtIfsFEATO/gnsPbmrW0XzAm8K6CeaELheVmNfTWk8KBg=="/>
+        </item>
+    </channel>
+</rss>
