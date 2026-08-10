@@ -3,10 +3,10 @@
     <channel>
         <title>TimeCal</title>
         <item>
-            <title>0.1.1</title>
-            <pubDate>Mon, 10 Aug 2026 16:07:23 -0700</pubDate>
-            <sparkle:version>159</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <title>0.1.2</title>
+            <pubDate>Mon, 10 Aug 2026 16:30:59 -0700</pubDate>
+            <sparkle:version>163</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<!DOCTYPE html>
@@ -40,18 +40,25 @@
 </head>
 <body>
 <h2>Welcome to the TimeCal beta</h2>
-<p>The first self-updating build. TimeCal now checks for updates daily and
-installs them in place, so this is the last version you'll ever download by
-hand. You can check manually any time via <b>File &gt; Check for Updates…</b></p>
+<p>TimeCal checks for updates daily and installs them in place; you can check
+manually any time via <b>File &gt; Check for Updates…</b> The beta is
+invite-only: the app asks for your code once and remembers it.</p>
 
-<h2>What TimeCal is</h2>
+<h2>New in 0.1.2</h2>
 <ul>
-    <li>Every calendar on your Mac, on one butter-smooth timeline: pan and
-        zoom from years down to minutes.</li>
-    <li>Direct-manipulation editing with explicit save: drag, resize,
-        duplicate, paint new events; nothing commits until you confirm.</li>
-    <li>Bookmarks (including locked multi-range views), an event template
-        library, calendar groups, and pinned floating event cards.</li>
+    <li><b>Private-beta invite gate.</b> The app is freely downloadable but
+        unlocks with a personal invite code.</li>
+    <li><b>Smarter wide-zoom labels.</b> Day labels now degrade gracefully
+        (every day → every other day → week starts), and weekend boundaries
+        draw a subtle vertical edge line.</li>
+    <li><b>Window behavior.</b> Closing the window keeps TimeCal running in
+        the Dock, and pinned event cards stay on your desktop on their own.
+        The title bar shows the version.</li>
+    <li><b>Panel polish.</b> Bookmarks and Library open one at a time with a
+        clean hand-off animation.</li>
+    <li><b>Fixes.</b> Hover cards cap long titles at two lines and always
+        enclose their content; mouse-wheel zoom is much faster; Help menu now
+        opens the Guide and a feedback email.</li>
 </ul>
 
 <h2>Feedback</h2>
@@ -61,7 +68,7 @@ hand. You can check manually any time via <b>File &gt; Check for Updates…</b><
 </body>
 </html>
 ]]></description>
-            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.1-b159-a78fdbd.zip" length="2317611" type="application/octet-stream" sparkle:edSignature="c2t8GPB4INYx9pg0V9dbfWCeBMJgqqSfYhWLwqqOzXtIfsFEATO/gnsPbmrW0XzAm8K6CeaELheVmNfTWk8KBg=="/>
+            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.2-b163-6a04892.zip" length="2336985" type="application/octet-stream" sparkle:edSignature="R7dE47Ka+UX1KSILAGtpVafwp1N7PMikIUDi9QXuLwHVEOPKSLaqt/rppoAZsDB92IhIKKeQ4Dbyikey6sicCQ=="/>
         </item>
     </channel>
 </rss>
