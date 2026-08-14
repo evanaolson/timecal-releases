@@ -3,10 +3,10 @@
     <channel>
         <title>TimeCal</title>
         <item>
-            <title>0.1.3</title>
-            <pubDate>Thu, 13 Aug 2026 10:13:20 -0700</pubDate>
-            <sparkle:version>185</sparkle:version>
-            <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+            <title>0.1.4</title>
+            <pubDate>Fri, 14 Aug 2026 09:43:42 -0700</pubDate>
+            <sparkle:version>195</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<!DOCTYPE html>
 <html>
@@ -38,22 +38,25 @@
 </style>
 </head>
 <body>
-<h2>New in 0.1.3</h2>
+<h2>New in 0.1.4</h2>
 <ul>
-    <li><b>Runs natively on Intel Macs.</b> TimeCal is now a universal app:
-        Apple Silicon and Intel, each with full native code.</li>
-    <li><b>The Now toggle.</b> The playhead gets its own control: click
-        <b>Now</b> (or press N) to center the red bar; while lit, Day, Week,
-        and Month zoom around it, and it stays pinned dead-center through the
-        animation. Press T any time to jump to today, midnight-left.</li>
-    <li><b>Richer color.</b> Event blocks and their titles are noticeably
-        more saturated and higher-contrast, and tentative events' hatching is
-        calmer so titles stay readable.</li>
-    <li><b>Snappier flights.</b> Zoom animations launch harder and settle
-        softer.</li>
-    <li><b>Small things.</b> The Ungrouped calendar section collapses;
-        stacked rows wait longer before growing taller; toolbar buttons carry
-        labels for icon-and-text mode.</li>
+    <li><b>Settings.</b> TimeCal gets a Settings window (⌘,). Choose the
+        snap increment for painting, dragging, and creating (5 to 60
+        minutes), set the default duration for double-click events, and
+        shape the feel of the wheel: zoom or pan, direction, and speed.
+        Every change applies instantly.</li>
+    <li><b>Calendar accounts.</b> Adding Google, iCloud, or Exchange
+        accounts now has a front door: Settings → Accounts, or Add
+        Account in the sidebar's + menu. Both open macOS Internet
+        Accounts, and TimeCal picks up new calendars automatically.</li>
+    <li><b>Typing stays typing.</b> Keyboard shortcuts no longer fire
+        while you edit inside an event's details. Typing P in an AM/PM
+        field now sets PM instead of opening Bookmarks.</li>
+    <li><b>Room to breathe.</b> The Guide is a two-column cheat sheet
+        with everything visible at once, and the Settings window fits its
+        content with no scrolling.</li>
+    <li><b>Acknowledgments.</b> The About panel credits Sparkle, the
+        open-source framework behind TimeCal's updates.</li>
 </ul>
 
 <h2>Feedback</h2>
@@ -63,7 +66,7 @@
 </body>
 </html>
 ]]></description>
-            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.3-b185-afb34d3.zip" length="3600715" type="application/octet-stream" sparkle:edSignature="0JOKL3dW0IL7mHf6d+6Jzm6lY0GdLwTK8kZjtfxfpma9jmLWejAVmLzLXN6inL9jUQTvz87ASzAwAOThBObLDA=="/>
+            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.4-b195-5979be0.zip" length="3677186" type="application/octet-stream" sparkle:edSignature="Wx5xp/Bu8aIYvtWabYMtV1gt1+Zt5/Wzd8QVZ0Mb/91gpCLgToN2Bmq2piLXAXsyzV0yskl0otoUKUtNE2ySBA=="/>
         </item>
     </channel>
 </rss>
