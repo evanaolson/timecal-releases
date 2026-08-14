@@ -3,10 +3,10 @@
     <channel>
         <title>TimeCal</title>
         <item>
-            <title>0.1.4</title>
-            <pubDate>Fri, 14 Aug 2026 09:43:42 -0700</pubDate>
-            <sparkle:version>195</sparkle:version>
-            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <title>0.1.5</title>
+            <pubDate>Fri, 14 Aug 2026 14:35:02 -0700</pubDate>
+            <sparkle:version>203</sparkle:version>
+            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<!DOCTYPE html>
 <html>
@@ -38,25 +38,25 @@
 </style>
 </head>
 <body>
-<h2>New in 0.1.4</h2>
+<h2>New in 0.1.5</h2>
 <ul>
-    <li><b>Settings.</b> TimeCal gets a Settings window (⌘,). Choose the
-        snap increment for painting, dragging, and creating (5 to 60
-        minutes), set the default duration for double-click events, and
-        shape the feel of the wheel: zoom or pan, direction, and speed.
-        Every change applies instantly.</li>
-    <li><b>Calendar accounts.</b> Adding Google, iCloud, or Exchange
-        accounts now has a front door: Settings → Accounts, or Add
-        Account in the sidebar's + menu. Both open macOS Internet
-        Accounts, and TimeCal picks up new calendars automatically.</li>
-    <li><b>Typing stays typing.</b> Keyboard shortcuts no longer fire
-        while you edit inside an event's details. Typing P in an AM/PM
-        field now sets PM instead of opening Bookmarks.</li>
-    <li><b>Room to breathe.</b> The Guide is a two-column cheat sheet
-        with everything visible at once, and the Settings window fits its
-        content with no scrolling.</li>
-    <li><b>Acknowledgments.</b> The About panel credits Sparkle, the
-        open-source framework behind TimeCal's updates.</li>
+    <li><b>Event icons.</b> Events with a video call show a camera, events
+        that mention a meeting show people, and events with a link show a
+        link mark, right beside the title, inside blocks and out. All
+        detected from the event itself, nothing leaves your Mac. Toggle in
+        Settings.</li>
+    <li><b>Collapsed groups show their contents.</b> A thin colored strip
+        on a collapsed group traces every hidden event, so a folded group
+        can never hide a busy afternoon.</li>
+    <li><b>Reorder anything.</b> Groups drag into a new order just like
+        calendars, and every drag now shows a live insertion line, the drop
+        lands exactly where the line shows.</li>
+    <li><b>One-line titles.</b> A new setting tightens every event label to
+        a single line for denser timelines.</li>
+    <li><b>Crisper structure.</b> Group rows carry a hairline boundary
+        across the sidebar and canvas, and the timeline background is now
+        identical on every version of macOS. Sequoia users, no more gray
+        canvas.</li>
 </ul>
 
 <h2>Feedback</h2>
@@ -66,7 +66,7 @@
 </body>
 </html>
 ]]></description>
-            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.4-b195-5979be0.zip" length="3677186" type="application/octet-stream" sparkle:edSignature="Wx5xp/Bu8aIYvtWabYMtV1gt1+Zt5/Wzd8QVZ0Mb/91gpCLgToN2Bmq2piLXAXsyzV0yskl0otoUKUtNE2ySBA=="/>
+            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.5-b203-2328a84.zip" length="3819558" type="application/octet-stream" sparkle:edSignature="QfxJVeBjo81lXwM3mzbft05alwYx+s7v5GT6ntbgvPu6H6Ab1H/M2Qc2WT6wEBfc+RmTIoNIRiEDzT7IfCx0Cw=="/>
         </item>
     </channel>
 </rss>
