@@ -3,10 +3,10 @@
     <channel>
         <title>TimeCal</title>
         <item>
-            <title>0.1.6</title>
-            <pubDate>Sat, 15 Aug 2026 15:23:14 -0700</pubDate>
-            <sparkle:version>238</sparkle:version>
-            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+            <title>0.1.7</title>
+            <pubDate>Tue, 18 Aug 2026 13:35:03 -0700</pubDate>
+            <sparkle:version>260</sparkle:version>
+            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<!DOCTYPE html>
 <html>
@@ -38,35 +38,28 @@
 </style>
 </head>
 <body>
-<h2>New in 0.1.6</h2>
-<p><b>Heads up, the modifier keys changed.</b> Hold <b>⇧</b> for the Pointer
-(select and shift things), hold <b>⌘</b> for Paint. <b>⌥</b>-drag still
-duplicates. The old hold-⇧-to-paint is retired.</p>
+<h2>New in 0.1.7</h2>
+<p><b>Heads up, invite codes are retired.</b> TimeCal now unlocks with a
+license key from Polar. On first launch after this update you will see the
+unlock screen; paste the key from your Polar email and you are back in.
+Beta testers get their key from the free beta link, the same key the paid
+version uses. Two Macs per key.</p>
 <ul>
-    <li><b>Rules.</b> Settings → Rules styles events by what they are: a
-        badge on the corner (a star, a flag, any emoji, in any color), a
-        glow behind the event, or a mute that grays it out. Match on title,
-        notes, location, invitees, calendar, duration, or all-day, with
-        "all" or "any" of your conditions. A live count shows how many
-        events a rule catches as you type. Video calls come badged out of
-        the box.</li>
-    <li><b>Multi-select.</b> ⇧-click events to select several, or ⇧-click
-        an edge to select an edit point. Drag a selection to move every
-        event together, or drag a selected edge to trim them all at once,
-        the shortest event stops the group. One Save confirms; one Undo
-        reverts. Esc clears, Delete removes the lot. Hovering an edge shows
-        which edge you have: ⇤ for a start, ⇥ for an end.</li>
-    <li><b>Only overlaps stack.</b> A single conflict no longer shrinks the
-        whole lane. Events that overlap stack together; everything else
-        keeps full height.</li>
-    <li><b>Now follows.</b> Double-click Now and the playhead sits dead
-        center while the timeline moves under it. Single-click Now jumps
-        to today, midnight-left. Any pan turns follow off; zoom keeps it.
-        N toggles it from the keyboard.</li>
-    <li><b>Small things.</b> Outside titles and times are darker. Group
-        rows carry a hairline boundary. Long addresses wrap inside the
-        card. Row highlight on hover is off by default (Settings turns it
-        on).</li>
+    <li><b>The unlock screen.</b> Paste your key, or use the Buy and Lost
+        your key links right there. Until a key is entered TimeCal opens
+        nothing: no calendars are read, no calendar permission is asked
+        for.</li>
+    <li><b>Works offline.</b> Once a key is activated TimeCal never needs
+        the network to open. It checks in quietly, at most once a day, and
+        a failed check changes nothing. Only a revoked key ever locks the
+        app, and even then not until the next launch, with a notice
+        first.</li>
+    <li><b>Settings, License.</b> See who the license belongs to, when this
+        Mac was activated, and the last check. Deactivate this Mac to move
+        the license to another one, or manage devices from your Polar
+        purchases.</li>
+    <li><b>About</b> shows the tail of your key, handy in a support
+        email.</li>
 </ul>
 
 <h2>Feedback</h2>
@@ -76,7 +69,7 @@ duplicates. The old hold-⇧-to-paint is retired.</p>
 </body>
 </html>
 ]]></description>
-            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.6-b238-a26ad73.zip" length="4399439" type="application/octet-stream" sparkle:edSignature="sGJvJAiSnvhqj1Wrdl8s4lgrW+ziPA7NDcfHlwwstXKKFbGnO7wzLQm/5zda4hQKllkVaeQsSuq3/GPiI7TvAQ=="/>
+            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.7-b260-d4bbcfc.zip" length="4590498" type="application/octet-stream" sparkle:edSignature="FNdwTMJbLQyentBBztUCUoQT9ypXykWxlW/H8TFHnELLcaiARxCc650pkWnIvCpnYvLSlBtKKCuUblqms45lDg=="/>
         </item>
     </channel>
 </rss>
