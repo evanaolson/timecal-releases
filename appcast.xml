@@ -3,10 +3,10 @@
     <channel>
         <title>TimeCal</title>
         <item>
-            <title>0.1.7</title>
-            <pubDate>Tue, 18 Aug 2026 13:35:03 -0700</pubDate>
-            <sparkle:version>260</sparkle:version>
-            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+            <title>0.1.8</title>
+            <pubDate>Thu, 20 Aug 2026 13:18:15 -0700</pubDate>
+            <sparkle:version>301</sparkle:version>
+            <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<!DOCTYPE html>
 <html>
@@ -38,28 +38,40 @@
 </style>
 </head>
 <body>
-<h2>New in 0.1.7</h2>
-<p><b>Heads up, invite codes are retired.</b> TimeCal now unlocks with a
-license key from Polar. On first launch after this update you will see the
-unlock screen; paste the key from your Polar email and you are back in.
-Beta testers get their key from the free beta link, the same key the paid
-version uses. Two Macs per key.</p>
+<h2>New in 0.1.8</h2>
+<p>A polish release. Lots of small things that were slightly off are now
+right, and rule badges learned a genuinely useful trick.</p>
 <ul>
-    <li><b>The unlock screen.</b> Paste your key, or use the Buy and Lost
-        your key links right there. Until a key is entered TimeCal opens
-        nothing: no calendars are read, no calendar permission is asked
-        for.</li>
-    <li><b>Works offline.</b> Once a key is activated TimeCal never needs
-        the network to open. It checks in quietly, at most once a day, and
-        a failed check changes nothing. Only a revoked key ever locks the
-        app, and even then not until the next launch, with a notice
-        first.</li>
-    <li><b>Settings, License.</b> See who the license belongs to, when this
-        Mac was activated, and the last check. Deactivate this Mac to move
-        the license to another one, or manage devices from your Polar
-        purchases.</li>
-    <li><b>About</b> shows the tail of your key, handy in a support
-        email.</li>
+    <li><b>Opens on your week.</b> A fresh launch now lands on week zoom
+        with today at the left edge, instead of a zoomed-in day. While the
+        app stays open your view stays where you left it.</li>
+    <li><b>Badges can open links.</b> A rule badge can now be a button. In
+        the rule editor, turn on "Badge opens the event's first link" and
+        clicking the badge on an event jumps straight to its link, the Zoom
+        call, the booking page, whatever the event carries. Add a match
+        pattern to pick a specific link, like zoom.us, when an event has
+        several. If no link is found the click just opens the event as
+        usual.</li>
+    <li><b>Who is coming.</b> Invitees now show their reply the way you
+        would expect: a green check for accepted, red for declined, a quiet
+        question mark for no reply yet, with the organizer and optional
+        guests labeled.</li>
+    <li><b>Long notes scroll.</b> Notes that used to clip past a few lines
+        now scroll inside the popover, including on read-only calendars.
+        Provider-generated novels are finally readable in place.</li>
+    <li><b>Snappier event popover.</b> Typing in the event editor no
+        longer drags while the timeline animates behind it.</li>
+    <li><b>Header labels pin properly.</b> The day and hour labels now
+        stick to the left edge with a clean backing, the way the month
+        label always has. No more clipped digits hanging off the edge.</li>
+    <li><b>A nicer front door.</b> The unlock screen has been redesigned,
+        with a wider key field so your whole license key is visible when
+        you paste it.</li>
+    <li><b>Emoji badges, unboxed.</b> An emoji badge now stands on its
+        own instead of being squeezed into a colored disc.</li>
+    <li><b>Quieter tooltips.</b> Toolbar tooltips are now just the name
+        and the hotkey. The Guide keeps the full explanations, and now
+        lists the N key for follow mode.</li>
 </ul>
 
 <h2>Feedback</h2>
@@ -69,7 +81,7 @@ version uses. Two Macs per key.</p>
 </body>
 </html>
 ]]></description>
-            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.7-b260-d4bbcfc.zip" length="4590498" type="application/octet-stream" sparkle:edSignature="FNdwTMJbLQyentBBztUCUoQT9ypXykWxlW/H8TFHnELLcaiARxCc650pkWnIvCpnYvLSlBtKKCuUblqms45lDg=="/>
+            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.8-b301-60046da.zip" length="4727269" type="application/octet-stream" sparkle:edSignature="nK6Y3y/PqvnQDwghIl2zaS/4eXgKOTiSeTDOm2Cd5choQQN9dYEIOVw+Uo18vsuWfDhN8oY+oWdfTtnoCixICg=="/>
         </item>
     </channel>
 </rss>
