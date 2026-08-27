@@ -3,10 +3,10 @@
     <channel>
         <title>TimeCal</title>
         <item>
-            <title>0.1.9</title>
-            <pubDate>Mon, 24 Aug 2026 20:25:48 -0700</pubDate>
-            <sparkle:version>323</sparkle:version>
-            <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
+            <title>0.2.0</title>
+            <pubDate>Wed, 26 Aug 2026 18:59:07 -0700</pubDate>
+            <sparkle:version>347</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<!DOCTYPE html>
 <html>
@@ -38,59 +38,61 @@
 </style>
 </head>
 <body>
-<h2>New in 0.1.9</h2>
-<p><b>Updating from 0.1.8 or earlier? This one needs a manual download.</b>
-TimeCal's internal app identifier changed in this release, which macOS
-treats as a different app, so the automatic updater cannot replace your
-copy and will fail if it tries. Download 0.1.9 from
-<a href="https://trytimecal.com/downloads">trytimecal.com/downloads</a>,
-drag it into Applications, and replace the old copy. Your license is
-safe and you will not need to re-enter your key. This is a one time
-step: updates after this one install themselves as usual.</p>
-<p>TimeCal is in beta and now for sale. This release adds two things
-worth having and fixes a handful of things that were quietly wrong.</p>
+<h2>New in 0.2.0</h2>
+<p>TimeCal is in beta. This release is about feel: editing that lands the
+instant you act, dragging that can never lose an event, and your notes
+where you can see them. It is numbered 0.2.0 rather than 0.1.10 because
+releases that add features now bump the middle number.</p>
 <ul>
-    <li><b>Your working day, shaded.</b> Turn on "Shade hours outside the
-        working day" in Settings, General, and the evenings and early
-        mornings recede so your actual day is the bright band. Set the
-        range to whatever yours is, including one that runs past midnight.
-        Off by default, and it steps out of the way when you zoom out far
-        enough that the bands would just be a wash.</li>
-    <li><b>Hover the now-line for the time.</b> Point at the red line
-        anywhere along its height and the current time appears at its
-        marker. Most useful when you are zoomed out far enough that the
-        header no longer tells you.</li>
-    <li><b>Make calendars on your Mac.</b> "On My Mac" is now offered when
-        you add a calendar, even if you do not have a local calendar yet,
-        and it is the default. Local calendars sync nowhere and cannot
-        disturb anything shared with you, which makes them the safe place
-        to keep the calendars you are only keeping for yourself. Your other
-        accounts are still in the list.</li>
-    <li><b>The all-day band tidies itself.</b> Deleting one of several
-        stacked multi-day events left a gap where it had been until you
-        scrolled or clicked something. The band now closes up on its own.</li>
-    <li><b>Header labels give way.</b> The pinned label at the left edge
-        now slides aside as the next one arrives, instead of being covered
-        part-way through.</li>
-    <li><b>Notes placeholder lines up.</b> The cursor in an empty notes
-        field now sits exactly where "Add Notes" says typing will start.</li>
-    <li><b>The right pointer in the guide.</b> The Guide showed a different
-        Pointer icon than the toolbar does.</li>
-    <li><b>Licensing.</b> License keys are now checked against TimeCal
-        specifically rather than the store account they came from. Existing
-        keys, including beta keys, are unaffected.</li>
-    <li><b>Two prompts on first launch after upgrading.</b> Because of the
-        identifier change above, macOS asks permission to use your saved
-        license and wants your keychain password for it. Choose <b>Always
-        Allow</b> and it will not ask again. It will also ask for calendar
-        access once more. Both are one time. If you do deny the keychain
-        prompt, TimeCal now says so plainly instead of behaving as though
-        you had never bought it.</li>
+    <li><b>Edits feel instant.</b> Moving an event, stretching it,
+        creating one, deleting one, duplicating one: the canvas shows it
+        the moment you act, instead of pausing until your calendar
+        account confirms. If a change is ever rejected, TimeCal puts
+        things back where they were and tells you.</li>
+    <li><b>Dropping onto a full slot is safe.</b> Dropping an event onto
+        a time another event occupies could show an error and leave an
+        event misplaced. Fixed at the root: TimeCal now tracks events by
+        who they are, not where they sit, so moving one never confuses
+        anything that pointed at it.</li>
+    <li><b>Notes on the timeline.</b> When a row is tall enough, an
+        event's block shows the start of its notes beneath the title and
+        time, up to three quiet lines, inside the block or beside it.
+        Outlook and Teams boilerplate is tidied out of the preview, and
+        the note itself is never touched. Choose what blocks show in
+        Settings, General: title, title and time, or title, time, and
+        notes.</li>
+    <li><b>Follow calendars from anywhere.</b> New Calendar Subscription,
+        in the sidebar's add menu, takes any webcal or ics feed link:
+        team schedules, holidays, a league's fixtures. Calendar opens
+        once to confirm, then the feed lives in TimeCal as a read-only
+        lane.</li>
+    <li><b>Menus that know their hotkeys.</b> A new Tools menu shows
+        Hand, Pointer, and Paint with their keys (H, V, B) and marks the
+        active one. Jump to Today shows its key (T), and the Bookmarks
+        and Library panels are in the View menu. About and Check for
+        Updates moved to the application menu where Mac apps keep them,
+        and the duplicates in File are gone.</li>
 </ul>
+<p><b>Updating from 0.1.8 or earlier?</b> Those versions cannot update
+automatically. Download the current version once from
+<a href="https://trytimecal.com/downloads">trytimecal.com/downloads</a>,
+drag it into Applications, and replace the old copy. Your license is safe.
+Updates after that install themselves as usual.</p>
 
 </body>
 </html>
 ]]></description>
+            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.2.0-b347-366f7c3.zip" length="4880629" type="application/octet-stream" sparkle:edSignature="EDeon8mDeXIck+UQULSIdg0AwaPOS4gR5Js7s1trJZzAO0iPkQN1qNEH/evYytXQU3nuC4N7kiMLklKTOaxsCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal347-323.delta" sparkle:deltaFrom="323" length="941910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q1CggFzjAjVvtpX4QnIs96uJAdkRAB8mAQQOhbHO7m9CG6Wy1A2IvQ0CCo9mxXQ0GQLAZjIS6Rw9Xhw5gzWgBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.1.9</title>
+            <pubDate>Mon, 24 Aug 2026 20:25:48 -0700</pubDate>
+            <sparkle:version>323</sparkle:version>
+            <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.9-b323-201845a.zip" length="4774070" type="application/octet-stream" sparkle:edSignature="ZTgMTr1v80IwHfQ2CyNNZa3tKT02LrwACzubxyMKGueDJKp1cnsynGi0KKso/xfSWURP85thHu1DbqRAXiphBg=="/>
         </item>
         <item>
