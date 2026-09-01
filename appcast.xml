@@ -3,6 +3,94 @@
     <channel>
         <title>TimeCal</title>
         <item>
+            <title>0.3.0</title>
+            <pubDate>Tue, 01 Sep 2026 11:51:36 -0700</pubDate>
+            <sparkle:version>496</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+    :root { color-scheme: light dark; }
+    body {
+        font: 13px/1.5 -apple-system, system-ui, sans-serif;
+        color: light-dark(#1d1d1f, #e8e8ed);
+        margin: 14px 16px;
+    }
+    h2 {
+        font-size: 15px;
+        margin: 18px 0 6px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid light-dark(#00000018, #ffffff22);
+    }
+    h2:first-child { margin-top: 0; }
+    p, li { margin: 4px 0; }
+    ul { margin: 6px 0; padding-left: 22px; }
+    b, strong { font-weight: 600; }
+    code {
+        font: 12px ui-monospace, monospace;
+        background: light-dark(#0000000d, #ffffff14);
+        border-radius: 3px;
+        padding: 0 3px;
+    }
+</style>
+</head>
+<body>
+<h2>New in 0.3.0</h2>
+<p>TimeCal is in beta. This release is about getting around: finding
+things, jumping to dates, cycling views with one key, and menus that
+finally know where you clicked. It also shares TimeCal a little more
+easily, if you want it to.</p>
+<ul>
+    <li><b>Search, from the toolbar.</b> Press Command K, type, and hit
+        Enter: the timeline flies to the first match and shows it close up,
+        with every match highlighted. The arrows walk the rest. Search
+        reads titles, notes, locations, and attendees, twenty years in
+        either direction, so "expo" finds the expo.</li>
+    <li><b>Type a date instead.</b> "Jun 26", "March", or "2027" in the
+        same box, then Enter, and you are there.</li>
+    <li><b>Hit Spacebar.</b> Each tap cycles the view through day, week,
+        month, and year, keeping the moment you were looking at on the
+        left. With Now following, it keeps following.</li>
+    <li><b>Right-click everything.</b> Events, calendars in the sidebar,
+        and the canvas itself get context menus, and the menu bar gains an
+        Event menu and a proper Help menu. Every menu item shows its key,
+        and typing in any text field never triggers a hotkey again.</li>
+    <li><b>Option-drag to copy.</b> Hold Option while dragging any event to
+        duplicate it, under any tool, even out of a read-only calendar and
+        into one you can write to.</li>
+    <li><b>Pinned cards are for reference.</b> A pinned event now rests as
+        a clean card: title, time, location, join links, a glimpse of the
+        notes. Click it to edit. Invitations you did not organize read as
+        exactly that, with the fields you cannot change faded and a note
+        saying who can.</li>
+    <li><b>Feel.</b> Fast arrow taps keep navigating instead of waiting for
+        the animation. Pressing N, T, or an arrow mid-scroll cancels the
+        glide and goes. Dates outside this year say which year. And after
+        an update, a short What's New card shows you the highlights, with
+        an Invite a Friend button beside it, also in the Help menu, if you
+        know someone who would like TimeCal while it is 20 dollars.</li>
+</ul>
+<p>Under the hood, the code was reorganized for faster builds and the
+timeline renders its busiest views measurably quicker than 0.2.0.</p>
+<p><b>Updating from 0.1.8 or earlier?</b> Those versions cannot update
+automatically. Download the current version once from
+<a href="https://trytimecal.com/downloads">trytimecal.com/downloads</a>,
+drag it into Applications, and replace the old copy. Your license is safe.
+Updates after that install themselves as usual.</p>
+
+</body>
+</html>
+]]></description>
+            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.3.0-b496-a3f1631.zip" length="5711808" type="application/octet-stream" sparkle:edSignature="sps1eWdfqAUEPBDdaTcR72gh61Znmvrv24SGSO6Dgfkwf1/LfYYaGNpixE+c1xjMyFQIdsfiX3SoJhOB+8CSCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal496-347.delta" sparkle:deltaFrom="347" length="2147074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z/qXd7A5sWbBCjRKB+STg+WHHjLbWZA3Y8qdr5E6wKa4jYh2i0ETrvYSXJDYvUTSnDkdLwMEMVZu+99ZMYNvCA=="/>
+                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal496-323.delta" sparkle:deltaFrom="323" length="2221610" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Duz4DPXJntyFn+mBDj4SNhV6u0oO7sdW1RryDgJVrTFr4so7M9zhTKdcTb6vR654T51Q2Mm1Qf7DGvnCSr7rDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Wed, 26 Aug 2026 18:59:07 -0700</pubDate>
             <sparkle:version>347</sparkle:version>
@@ -177,87 +265,6 @@ worth having and fixes a handful of things that were quietly wrong.</p>
 </html>
 ]]></description>
             <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.9-b323-201845a.zip" length="4774070" type="application/octet-stream" sparkle:edSignature="ZTgMTr1v80IwHfQ2CyNNZa3tKT02LrwACzubxyMKGueDJKp1cnsynGi0KKso/xfSWURP85thHu1DbqRAXiphBg=="/>
-        </item>
-        <item>
-            <title>0.1.8</title>
-            <pubDate>Thu, 20 Aug 2026 13:18:15 -0700</pubDate>
-            <sparkle:version>301</sparkle:version>
-            <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<style>
-    :root { color-scheme: light dark; }
-    body {
-        font: 13px/1.5 -apple-system, system-ui, sans-serif;
-        color: light-dark(#1d1d1f, #e8e8ed);
-        margin: 14px 16px;
-    }
-    h2 {
-        font-size: 15px;
-        margin: 18px 0 6px;
-        padding-bottom: 4px;
-        border-bottom: 1px solid light-dark(#00000018, #ffffff22);
-    }
-    h2:first-child { margin-top: 0; }
-    p, li { margin: 4px 0; }
-    ul { margin: 6px 0; padding-left: 22px; }
-    b, strong { font-weight: 600; }
-    code {
-        font: 12px ui-monospace, monospace;
-        background: light-dark(#0000000d, #ffffff14);
-        border-radius: 3px;
-        padding: 0 3px;
-    }
-</style>
-</head>
-<body>
-<h2>New in 0.1.8</h2>
-<p>A polish release. Lots of small things that were slightly off are now
-right, and rule badges learned a genuinely useful trick.</p>
-<ul>
-    <li><b>Opens on your week.</b> A fresh launch now lands on week zoom
-        with today at the left edge, instead of a zoomed-in day. While the
-        app stays open your view stays where you left it.</li>
-    <li><b>Badges can open links.</b> A rule badge can now be a button. In
-        the rule editor, turn on "Badge opens the event's first link" and
-        clicking the badge on an event jumps straight to its link, the Zoom
-        call, the booking page, whatever the event carries. Add a match
-        pattern to pick a specific link, like zoom.us, when an event has
-        several. If no link is found the click just opens the event as
-        usual.</li>
-    <li><b>Who is coming.</b> Invitees now show their reply the way you
-        would expect: a green check for accepted, red for declined, a quiet
-        question mark for no reply yet, with the organizer and optional
-        guests labeled.</li>
-    <li><b>Long notes scroll.</b> Notes that used to clip past a few lines
-        now scroll inside the popover, including on read-only calendars.
-        Provider-generated novels are finally readable in place.</li>
-    <li><b>Snappier event popover.</b> Typing in the event editor no
-        longer drags while the timeline animates behind it.</li>
-    <li><b>Header labels pin properly.</b> The day and hour labels now
-        stick to the left edge with a clean backing, the way the month
-        label always has. No more clipped digits hanging off the edge.</li>
-    <li><b>A nicer front door.</b> The unlock screen has been redesigned,
-        with a wider key field so your whole license key is visible when
-        you paste it.</li>
-    <li><b>Emoji badges, unboxed.</b> An emoji badge now stands on its
-        own instead of being squeezed into a colored disc.</li>
-    <li><b>Quieter tooltips.</b> Toolbar tooltips are now just the name
-        and the hotkey. The Guide keeps the full explanations, and now
-        lists the N key for follow mode.</li>
-</ul>
-
-<h2>Feedback</h2>
-<p>Send anything, bugs, ideas, confusion, to
-<a href="mailto:evan@trytimecal.com">evan@trytimecal.com</a>.</p>
-
-</body>
-</html>
-]]></description>
-            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.8-b301-60046da.zip" length="4727269" type="application/octet-stream" sparkle:edSignature="nK6Y3y/PqvnQDwghIl2zaS/4eXgKOTiSeTDOm2Cd5choQQN9dYEIOVw+Uo18vsuWfDhN8oY+oWdfTtnoCixICg=="/>
         </item>
     </channel>
 </rss>
