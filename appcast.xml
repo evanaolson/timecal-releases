@@ -3,6 +3,95 @@
     <channel>
         <title>TimeCal</title>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Wed, 02 Sep 2026 19:35:10 -0700</pubDate>
+            <sparkle:version>550</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+    :root { color-scheme: light dark; }
+    body {
+        font: 13px/1.5 -apple-system, system-ui, sans-serif;
+        color: light-dark(#1d1d1f, #e8e8ed);
+        margin: 14px 16px;
+    }
+    h2 {
+        font-size: 15px;
+        margin: 18px 0 6px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid light-dark(#00000018, #ffffff22);
+    }
+    h2:first-child { margin-top: 0; }
+    p, li { margin: 4px 0; }
+    ul { margin: 6px 0; padding-left: 22px; }
+    b, strong { font-weight: 600; }
+    code {
+        font: 12px ui-monospace, monospace;
+        background: light-dark(#0000000d, #ffffff14);
+        border-radius: 3px;
+        padding: 0 3px;
+    }
+</style>
+</head>
+<body>
+<h2>New in 0.4.0</h2>
+<p>TimeCal is in beta. This release is about TimeCal speaking your
+language, in every sense: two new languages, an appearance of your own,
+a timeline that keeps local habits, and rules you can have your AI
+write for you.</p>
+<ul>
+    <li><b>Spanish and Portuguese.</b> TimeCal now follows your Mac's
+        language, and if you would rather it did not, Settings, General,
+        Language lets you pick English, Español, or Português for TimeCal
+        alone. The calendar permission prompt speaks the same language.
+        These translations are a first pass, so if a phrase reads oddly,
+        <a href="mailto:evan@trytimecal.com">tell me</a> and it will read
+        better next time.</li>
+    <li><b>Light or dark, your call.</b> Settings, General, Appearance:
+        System, Light, or Dark, for TimeCal only. It changes the moment
+        you pick it, with a crossfade, and stays that way.</li>
+    <li><b>Rules, written by your AI.</b> In Settings, Rules, the menu at
+        the end of the +/− bar has Copy Prompt for AI. Paste that into
+        any AI chat with nothing else, answer its question about what you
+        need to see, and paste its reply back with Paste Rules from AI.
+        The rules land on your timeline first, tagged Proposed, so you can
+        judge them where they matter. Nothing is saved until you press
+        Apply, and Discard puts everything back. No event data leaves
+        TimeCal; the prompt carries your calendar names and your existing
+        rules, nothing more.</li>
+    <li><b>The timeline keeps local habits.</b> Change time zones, even
+        mid-flight, and the headers, the now line, and the shading follow
+        without a relaunch. The weekend is your region's weekend, Friday
+        and Saturday where that is the custom. The date box takes month
+        names in your language ("junio 26"), and English keeps working
+        everywhere. Durations and the price read the way your region
+        writes them.</li>
+    <li><b>Fixed.</b> The working-day shading settings reset on every
+        launch. They stay put now.</li>
+</ul>
+<p>Under the hood, every word in the app now lives in one translation
+file, and a release cannot ship while a language is incomplete.</p>
+<p><b>Updating from 0.1.8 or earlier?</b> Those versions cannot update
+automatically. Download the current version once from
+<a href="https://trytimecal.com/downloads">trytimecal.com/downloads</a>,
+drag it into Applications, and replace the old copy. Your license is safe.
+Updates after that install themselves as usual.</p>
+
+</body>
+</html>
+]]></description>
+            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.4.0-b550-dda2fe9.zip" length="5949977" type="application/octet-stream" sparkle:edSignature="L+p/ODKpzwG6bGAtwuwA77elm4h+/a/5DB04AxnoyRvFsWwcYVHGrL7ojZXcTlqNUhel9/yx0jITf679mQJ+Cw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal550-496.delta" sparkle:deltaFrom="496" length="1338186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rjPcrkCWbKYoP4FRSZGQFevu2lZzftZYheuQrSXg1u6gCLLBdCbXmVR0+ARrmhBxh3/B9w7+HlSMLcsRh7LvAg=="/>
+                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal550-347.delta" sparkle:deltaFrom="347" length="2471282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gV+DK4mWmWzJBc3HqCHK35FMZ9xOsLMA3H+jwO7CpyB71Rno3VzCt5OblHHUzRk7hzYitlhDfpknzzJWRSW7CA=="/>
+                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal550-323.delta" sparkle:deltaFrom="323" length="2530210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cHkHqGYsuuB7GkkR1yOJ46X3oSF1pt8Z0xEtLWMcDY3kfxjnU20brkhpGkjNWJ9R+NVPQwvPrm017psYXMAFBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Tue, 01 Sep 2026 11:51:36 -0700</pubDate>
             <sparkle:version>496</sparkle:version>
