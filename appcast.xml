@@ -1,18 +1,32 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>TimeCal</title>
-        <item>
+        <item><title>1.0.0</title><pubDate>Mon, 26 Oct 2026 18:57:26 +0000</pubDate><sparkle:version>1766</sparkle:version><sparkle:shortVersionString>1.0.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description>&lt;h2&gt;TimeCal for Mac 1.0&lt;/h2&gt;
+&lt;p&gt;TimeCal for Mac is out of beta. Version 1.0 brings your calendars together on a timeline you can zoom, organize, and edit.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Your calendars, together.&lt;/b&gt; See iCloud, Google, Exchange, and other calendars from your Mac’s Calendar app in one place.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;From the year to the hour.&lt;/b&gt; Zoom from the big picture into the details, pan through time, search for events, jump to a date, or follow the present moment.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Edit right on the timeline.&lt;/b&gt; Draw new events, move, resize, or duplicate them, and work with multiple events at once. Preview changes before saving, with undo and redo when you need them.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;The details that make a plan.&lt;/b&gt; Manage times, all-day events, repeats, reminders, locations, notes, links, and availability where your calendar supports them.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Calendars arranged your way.&lt;/b&gt; Group and reorder calendars, show or hide lanes, and adjust their height to make room for what matters.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Rules that make events stand out.&lt;/b&gt; Automatically style matching events with colors, emphasis, and badges. Build your own rules, preview their matches, and import or export them.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Keep an event in view.&lt;/b&gt; Pin event details in floating desktop cards so they stay close while you work.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Make it feel like your Mac.&lt;/b&gt; Choose light or dark appearance, working-hour shading, and the details shown on events. Use keyboard shortcuts and the built-in guide, with English, Spanish, and Brazilian Portuguese interfaces.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;macOS 15 or later. Apple Silicon and Intel Macs.&lt;/p&gt;
+</description><enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-1.0.0-b1766-cd659e49.zip" length="8681997" type="application/octet-stream" sparkle:edSignature="UQrGrUWS10imlvu26dNxpfC0FMBFSGeBqShbIPcHN+ypvOskgsxIG4Ce+DMwDVkzOLzB98dnKpMhD/fjVnsXCg=="></enclosure></item><item>
             <title>0.4.0</title>
             <pubDate>Wed, 02 Sep 2026 19:35:10 -0700</pubDate>
             <sparkle:version>550</sparkle:version>
             <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<style>
+            <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;style&gt;
     :root { color-scheme: light dark; }
     body {
         font: 13px/1.5 -apple-system, system-ui, sans-serif;
@@ -35,26 +49,26 @@
         border-radius: 3px;
         padding: 0 3px;
     }
-</style>
-</head>
-<body>
-<h2>New in 0.4.0</h2>
-<p>TimeCal is in beta. This release is about TimeCal speaking your
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h2&gt;New in 0.4.0&lt;/h2&gt;
+&lt;p&gt;TimeCal is in beta. This release is about TimeCal speaking your
 language, in every sense: two new languages, an appearance of your own,
 a timeline that keeps local habits, and rules you can have your AI
-write for you.</p>
-<ul>
-    <li><b>Spanish and Portuguese.</b> TimeCal now follows your Mac's
+write for you.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Spanish and Portuguese.&lt;/b&gt; TimeCal now follows your Mac's
         language, and if you would rather it did not, Settings, General,
         Language lets you pick English, Español, or Português for TimeCal
         alone. The calendar permission prompt speaks the same language.
         These translations are a first pass, so if a phrase reads oddly,
-        <a href="mailto:evan@trytimecal.com">tell me</a> and it will read
-        better next time.</li>
-    <li><b>Light or dark, your call.</b> Settings, General, Appearance:
+        &lt;a href="mailto:evan@trytimecal.com"&gt;tell me&lt;/a&gt; and it will read
+        better next time.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Light or dark, your call.&lt;/b&gt; Settings, General, Appearance:
         System, Light, or Dark, for TimeCal only. It changes the moment
-        you pick it, with a crossfade, and stays that way.</li>
-    <li><b>Rules, written by your AI.</b> In Settings, Rules, the menu at
+        you pick it, with a crossfade, and stays that way.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Rules, written by your AI.&lt;/b&gt; In Settings, Rules, the menu at
         the end of the +/− bar has Copy Prompt for AI. Paste that into
         any AI chat with nothing else, answer its question about what you
         need to see, and paste its reply back with Paste Rules from AI.
@@ -62,33 +76,33 @@ write for you.</p>
         judge them where they matter. Nothing is saved until you press
         Apply, and Discard puts everything back. No event data leaves
         TimeCal; the prompt carries your calendar names and your existing
-        rules, nothing more.</li>
-    <li><b>The timeline keeps local habits.</b> Change time zones, even
+        rules, nothing more.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;The timeline keeps local habits.&lt;/b&gt; Change time zones, even
         mid-flight, and the headers, the now line, and the shading follow
         without a relaunch. The weekend is your region's weekend, Friday
         and Saturday where that is the custom. The date box takes month
         names in your language ("junio 26"), and English keeps working
         everywhere. Durations and the price read the way your region
-        writes them.</li>
-    <li><b>Fixed.</b> The working-day shading settings reset on every
-        launch. They stay put now.</li>
-</ul>
-<p>Under the hood, every word in the app now lives in one translation
-file, and a release cannot ship while a language is incomplete.</p>
-<p><b>Updating from 0.1.8 or earlier?</b> Those versions cannot update
+        writes them.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Fixed.&lt;/b&gt; The working-day shading settings reset on every
+        launch. They stay put now.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Under the hood, every word in the app now lives in one translation
+file, and a release cannot ship while a language is incomplete.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Updating from 0.1.8 or earlier?&lt;/b&gt; Those versions cannot update
 automatically. Download the current version once from
-<a href="https://trytimecal.com/downloads">trytimecal.com/downloads</a>,
+&lt;a href="https://trytimecal.com/downloads"&gt;trytimecal.com/downloads&lt;/a&gt;,
 drag it into Applications, and replace the old copy. Your license is safe.
-Updates after that install themselves as usual.</p>
+Updates after that install themselves as usual.&lt;/p&gt;
 
-</body>
-</html>
-]]></description>
-            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.4.0-b550-dda2fe9.zip" length="5949977" type="application/octet-stream" sparkle:edSignature="L+p/ODKpzwG6bGAtwuwA77elm4h+/a/5DB04AxnoyRvFsWwcYVHGrL7ojZXcTlqNUhel9/yx0jITf679mQJ+Cw=="/>
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.4.0-b550-dda2fe9.zip" length="5949977" type="application/octet-stream" sparkle:edSignature="L+p/ODKpzwG6bGAtwuwA77elm4h+/a/5DB04AxnoyRvFsWwcYVHGrL7ojZXcTlqNUhel9/yx0jITf679mQJ+Cw=="></enclosure>
             <sparkle:deltas>
-                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal550-496.delta" sparkle:deltaFrom="496" length="1338186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rjPcrkCWbKYoP4FRSZGQFevu2lZzftZYheuQrSXg1u6gCLLBdCbXmVR0+ARrmhBxh3/B9w7+HlSMLcsRh7LvAg=="/>
-                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal550-347.delta" sparkle:deltaFrom="347" length="2471282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gV+DK4mWmWzJBc3HqCHK35FMZ9xOsLMA3H+jwO7CpyB71Rno3VzCt5OblHHUzRk7hzYitlhDfpknzzJWRSW7CA=="/>
-                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal550-323.delta" sparkle:deltaFrom="323" length="2530210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cHkHqGYsuuB7GkkR1yOJ46X3oSF1pt8Z0xEtLWMcDY3kfxjnU20brkhpGkjNWJ9R+NVPQwvPrm017psYXMAFBg=="/>
+                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal550-496.delta" sparkle:deltaFrom="496" length="1338186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rjPcrkCWbKYoP4FRSZGQFevu2lZzftZYheuQrSXg1u6gCLLBdCbXmVR0+ARrmhBxh3/B9w7+HlSMLcsRh7LvAg=="></enclosure>
+                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal550-347.delta" sparkle:deltaFrom="347" length="2471282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gV+DK4mWmWzJBc3HqCHK35FMZ9xOsLMA3H+jwO7CpyB71Rno3VzCt5OblHHUzRk7hzYitlhDfpknzzJWRSW7CA=="></enclosure>
+                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal550-323.delta" sparkle:deltaFrom="323" length="2530210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cHkHqGYsuuB7GkkR1yOJ46X3oSF1pt8Z0xEtLWMcDY3kfxjnU20brkhpGkjNWJ9R+NVPQwvPrm017psYXMAFBg=="></enclosure>
             </sparkle:deltas>
         </item>
         <item>
@@ -97,11 +111,11 @@ Updates after that install themselves as usual.</p>
             <sparkle:version>496</sparkle:version>
             <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<style>
+            <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;style&gt;
     :root { color-scheme: light dark; }
     body {
         font: 13px/1.5 -apple-system, system-ui, sans-serif;
@@ -124,59 +138,59 @@ Updates after that install themselves as usual.</p>
         border-radius: 3px;
         padding: 0 3px;
     }
-</style>
-</head>
-<body>
-<h2>New in 0.3.0</h2>
-<p>TimeCal is in beta. This release is about getting around: finding
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h2&gt;New in 0.3.0&lt;/h2&gt;
+&lt;p&gt;TimeCal is in beta. This release is about getting around: finding
 things, jumping to dates, cycling views with one key, and menus that
 finally know where you clicked. It also shares TimeCal a little more
-easily, if you want it to.</p>
-<ul>
-    <li><b>Search, from the toolbar.</b> Press Command K, type, and hit
+easily, if you want it to.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Search, from the toolbar.&lt;/b&gt; Press Command K, type, and hit
         Enter: the timeline flies to the first match and shows it close up,
         with every match highlighted. The arrows walk the rest. Search
         reads titles, notes, locations, and attendees, twenty years in
-        either direction, so "expo" finds the expo.</li>
-    <li><b>Type a date instead.</b> "Jun 26", "March", or "2027" in the
-        same box, then Enter, and you are there.</li>
-    <li><b>Hit Spacebar.</b> Each tap cycles the view through day, week,
+        either direction, so "expo" finds the expo.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Type a date instead.&lt;/b&gt; "Jun 26", "March", or "2027" in the
+        same box, then Enter, and you are there.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Hit Spacebar.&lt;/b&gt; Each tap cycles the view through day, week,
         month, and year, keeping the moment you were looking at on the
-        left. With Now following, it keeps following.</li>
-    <li><b>Right-click everything.</b> Events, calendars in the sidebar,
+        left. With Now following, it keeps following.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Right-click everything.&lt;/b&gt; Events, calendars in the sidebar,
         and the canvas itself get context menus, and the menu bar gains an
         Event menu and a proper Help menu. Every menu item shows its key,
-        and typing in any text field never triggers a hotkey again.</li>
-    <li><b>Option-drag to copy.</b> Hold Option while dragging any event to
+        and typing in any text field never triggers a hotkey again.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Option-drag to copy.&lt;/b&gt; Hold Option while dragging any event to
         duplicate it, under any tool, even out of a read-only calendar and
-        into one you can write to.</li>
-    <li><b>Pinned cards are for reference.</b> A pinned event now rests as
+        into one you can write to.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Pinned cards are for reference.&lt;/b&gt; A pinned event now rests as
         a clean card: title, time, location, join links, a glimpse of the
         notes. Click it to edit. Invitations you did not organize read as
         exactly that, with the fields you cannot change faded and a note
-        saying who can.</li>
-    <li><b>Feel.</b> Fast arrow taps keep navigating instead of waiting for
+        saying who can.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Feel.&lt;/b&gt; Fast arrow taps keep navigating instead of waiting for
         the animation. Pressing N, T, or an arrow mid-scroll cancels the
         glide and goes. Dates outside this year say which year. And after
         an update, a short What's New card shows you the highlights, with
         an Invite a Friend button beside it, also in the Help menu, if you
-        know someone who would like TimeCal while it is 20 dollars.</li>
-</ul>
-<p>Under the hood, the code was reorganized for faster builds and the
-timeline renders its busiest views measurably quicker than 0.2.0.</p>
-<p><b>Updating from 0.1.8 or earlier?</b> Those versions cannot update
+        know someone who would like TimeCal while it is 20 dollars.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Under the hood, the code was reorganized for faster builds and the
+timeline renders its busiest views measurably quicker than 0.2.0.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Updating from 0.1.8 or earlier?&lt;/b&gt; Those versions cannot update
 automatically. Download the current version once from
-<a href="https://trytimecal.com/downloads">trytimecal.com/downloads</a>,
+&lt;a href="https://trytimecal.com/downloads"&gt;trytimecal.com/downloads&lt;/a&gt;,
 drag it into Applications, and replace the old copy. Your license is safe.
-Updates after that install themselves as usual.</p>
+Updates after that install themselves as usual.&lt;/p&gt;
 
-</body>
-</html>
-]]></description>
-            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.3.0-b496-a3f1631.zip" length="5711808" type="application/octet-stream" sparkle:edSignature="sps1eWdfqAUEPBDdaTcR72gh61Znmvrv24SGSO6Dgfkwf1/LfYYaGNpixE+c1xjMyFQIdsfiX3SoJhOB+8CSCg=="/>
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.3.0-b496-a3f1631.zip" length="5711808" type="application/octet-stream" sparkle:edSignature="sps1eWdfqAUEPBDdaTcR72gh61Znmvrv24SGSO6Dgfkwf1/LfYYaGNpixE+c1xjMyFQIdsfiX3SoJhOB+8CSCg=="></enclosure>
             <sparkle:deltas>
-                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal496-347.delta" sparkle:deltaFrom="347" length="2147074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z/qXd7A5sWbBCjRKB+STg+WHHjLbWZA3Y8qdr5E6wKa4jYh2i0ETrvYSXJDYvUTSnDkdLwMEMVZu+99ZMYNvCA=="/>
-                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal496-323.delta" sparkle:deltaFrom="323" length="2221610" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Duz4DPXJntyFn+mBDj4SNhV6u0oO7sdW1RryDgJVrTFr4so7M9zhTKdcTb6vR654T51Q2Mm1Qf7DGvnCSr7rDw=="/>
+                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal496-347.delta" sparkle:deltaFrom="347" length="2147074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z/qXd7A5sWbBCjRKB+STg+WHHjLbWZA3Y8qdr5E6wKa4jYh2i0ETrvYSXJDYvUTSnDkdLwMEMVZu+99ZMYNvCA=="></enclosure>
+                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal496-323.delta" sparkle:deltaFrom="323" length="2221610" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Duz4DPXJntyFn+mBDj4SNhV6u0oO7sdW1RryDgJVrTFr4so7M9zhTKdcTb6vR654T51Q2Mm1Qf7DGvnCSr7rDw=="></enclosure>
             </sparkle:deltas>
         </item>
         <item>
@@ -185,11 +199,11 @@ Updates after that install themselves as usual.</p>
             <sparkle:version>347</sparkle:version>
             <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<style>
+            <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;style&gt;
     :root { color-scheme: light dark; }
     body {
         font: 13px/1.5 -apple-system, system-ui, sans-serif;
@@ -212,56 +226,56 @@ Updates after that install themselves as usual.</p>
         border-radius: 3px;
         padding: 0 3px;
     }
-</style>
-</head>
-<body>
-<h2>New in 0.2.0</h2>
-<p>TimeCal is in beta. This release is about feel: editing that lands the
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h2&gt;New in 0.2.0&lt;/h2&gt;
+&lt;p&gt;TimeCal is in beta. This release is about feel: editing that lands the
 instant you act, dragging that can never lose an event, and your notes
 where you can see them. It is numbered 0.2.0 rather than 0.1.10 because
-releases that add features now bump the middle number.</p>
-<ul>
-    <li><b>Edits feel instant.</b> Moving an event, stretching it,
+releases that add features now bump the middle number.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Edits feel instant.&lt;/b&gt; Moving an event, stretching it,
         creating one, deleting one, duplicating one: the canvas shows it
         the moment you act, instead of pausing until your calendar
         account confirms. If a change is ever rejected, TimeCal puts
-        things back where they were and tells you.</li>
-    <li><b>Dropping onto a full slot is safe.</b> Dropping an event onto
+        things back where they were and tells you.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Dropping onto a full slot is safe.&lt;/b&gt; Dropping an event onto
         a time another event occupies could show an error and leave an
         event misplaced. Fixed at the root: TimeCal now tracks events by
         who they are, not where they sit, so moving one never confuses
-        anything that pointed at it.</li>
-    <li><b>Notes on the timeline.</b> When a row is tall enough, an
+        anything that pointed at it.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Notes on the timeline.&lt;/b&gt; When a row is tall enough, an
         event's block shows the start of its notes beneath the title and
         time, up to three quiet lines, inside the block or beside it.
         Outlook and Teams boilerplate is tidied out of the preview, and
         the note itself is never touched. Choose what blocks show in
         Settings, General: title, title and time, or title, time, and
-        notes.</li>
-    <li><b>Follow calendars from anywhere.</b> New Calendar Subscription,
+        notes.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Follow calendars from anywhere.&lt;/b&gt; New Calendar Subscription,
         in the sidebar's add menu, takes any webcal or ics feed link:
         team schedules, holidays, a league's fixtures. Calendar opens
         once to confirm, then the feed lives in TimeCal as a read-only
-        lane.</li>
-    <li><b>Menus that know their hotkeys.</b> A new Tools menu shows
+        lane.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Menus that know their hotkeys.&lt;/b&gt; A new Tools menu shows
         Hand, Pointer, and Paint with their keys (H, V, B) and marks the
         active one. Jump to Today shows its key (T), and the Bookmarks
         and Library panels are in the View menu. About and Check for
         Updates moved to the application menu where Mac apps keep them,
-        and the duplicates in File are gone.</li>
-</ul>
-<p><b>Updating from 0.1.8 or earlier?</b> Those versions cannot update
+        and the duplicates in File are gone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Updating from 0.1.8 or earlier?&lt;/b&gt; Those versions cannot update
 automatically. Download the current version once from
-<a href="https://trytimecal.com/downloads">trytimecal.com/downloads</a>,
+&lt;a href="https://trytimecal.com/downloads"&gt;trytimecal.com/downloads&lt;/a&gt;,
 drag it into Applications, and replace the old copy. Your license is safe.
-Updates after that install themselves as usual.</p>
+Updates after that install themselves as usual.&lt;/p&gt;
 
-</body>
-</html>
-]]></description>
-            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.2.0-b347-366f7c3.zip" length="4880629" type="application/octet-stream" sparkle:edSignature="EDeon8mDeXIck+UQULSIdg0AwaPOS4gR5Js7s1trJZzAO0iPkQN1qNEH/evYytXQU3nuC4N7kiMLklKTOaxsCg=="/>
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.2.0-b347-366f7c3.zip" length="4880629" type="application/octet-stream" sparkle:edSignature="EDeon8mDeXIck+UQULSIdg0AwaPOS4gR5Js7s1trJZzAO0iPkQN1qNEH/evYytXQU3nuC4N7kiMLklKTOaxsCg=="></enclosure>
             <sparkle:deltas>
-                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal347-323.delta" sparkle:deltaFrom="323" length="941910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q1CggFzjAjVvtpX4QnIs96uJAdkRAB8mAQQOhbHO7m9CG6Wy1A2IvQ0CCo9mxXQ0GQLAZjIS6Rw9Xhw5gzWgBw=="/>
+                <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal347-323.delta" sparkle:deltaFrom="323" length="941910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q1CggFzjAjVvtpX4QnIs96uJAdkRAB8mAQQOhbHO7m9CG6Wy1A2IvQ0CCo9mxXQ0GQLAZjIS6Rw9Xhw5gzWgBw=="></enclosure>
             </sparkle:deltas>
         </item>
         <item>
@@ -270,11 +284,11 @@ Updates after that install themselves as usual.</p>
             <sparkle:version>323</sparkle:version>
             <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<style>
+            <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;style&gt;
     :root { color-scheme: light dark; }
     body {
         font: 13px/1.5 -apple-system, system-ui, sans-serif;
@@ -297,63 +311,66 @@ Updates after that install themselves as usual.</p>
         border-radius: 3px;
         padding: 0 3px;
     }
-</style>
-</head>
-<body>
-<h2>New in 0.1.9</h2>
-<p><b>Updating from 0.1.8 or earlier? This one needs a manual download.</b>
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h2&gt;New in 0.1.9&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;Updating from 0.1.8 or earlier? This one needs a manual download.&lt;/b&gt;
 TimeCal's internal app identifier changed in this release, which macOS
 treats as a different app, so the automatic updater cannot replace your
 copy and will fail if it tries. Download 0.1.9 from
-<a href="https://trytimecal.com/downloads">trytimecal.com/downloads</a>,
+&lt;a href="https://trytimecal.com/downloads"&gt;trytimecal.com/downloads&lt;/a&gt;,
 drag it into Applications, and replace the old copy. Your license is
 safe and you will not need to re-enter your key. This is a one time
-step: updates after this one install themselves as usual.</p>
-<p>TimeCal is in beta and now for sale. This release adds two things
-worth having and fixes a handful of things that were quietly wrong.</p>
-<ul>
-    <li><b>Your working day, shaded.</b> Turn on "Shade hours outside the
+step: updates after this one install themselves as usual.&lt;/p&gt;
+&lt;p&gt;TimeCal is in beta and now for sale. This release adds two things
+worth having and fixes a handful of things that were quietly wrong.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Your working day, shaded.&lt;/b&gt; Turn on "Shade hours outside the
         working day" in Settings, General, and the evenings and early
         mornings recede so your actual day is the bright band. Set the
         range to whatever yours is, including one that runs past midnight.
         Off by default, and it steps out of the way when you zoom out far
-        enough that the bands would just be a wash.</li>
-    <li><b>Hover the now-line for the time.</b> Point at the red line
+        enough that the bands would just be a wash.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Hover the now-line for the time.&lt;/b&gt; Point at the red line
         anywhere along its height and the current time appears at its
         marker. Most useful when you are zoomed out far enough that the
-        header no longer tells you.</li>
-    <li><b>Make calendars on your Mac.</b> "On My Mac" is now offered when
+        header no longer tells you.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Make calendars on your Mac.&lt;/b&gt; "On My Mac" is now offered when
         you add a calendar, even if you do not have a local calendar yet,
         and it is the default. Local calendars sync nowhere and cannot
         disturb anything shared with you, which makes them the safe place
         to keep the calendars you are only keeping for yourself. Your other
-        accounts are still in the list.</li>
-    <li><b>The all-day band tidies itself.</b> Deleting one of several
+        accounts are still in the list.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;The all-day band tidies itself.&lt;/b&gt; Deleting one of several
         stacked multi-day events left a gap where it had been until you
-        scrolled or clicked something. The band now closes up on its own.</li>
-    <li><b>Header labels give way.</b> The pinned label at the left edge
+        scrolled or clicked something. The band now closes up on its own.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Header labels give way.&lt;/b&gt; The pinned label at the left edge
         now slides aside as the next one arrives, instead of being covered
-        part-way through.</li>
-    <li><b>Notes placeholder lines up.</b> The cursor in an empty notes
-        field now sits exactly where "Add Notes" says typing will start.</li>
-    <li><b>The right pointer in the guide.</b> The Guide showed a different
-        Pointer icon than the toolbar does.</li>
-    <li><b>Licensing.</b> License keys are now checked against TimeCal
+        part-way through.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Notes placeholder lines up.&lt;/b&gt; The cursor in an empty notes
+        field now sits exactly where "Add Notes" says typing will start.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;The right pointer in the guide.&lt;/b&gt; The Guide showed a different
+        Pointer icon than the toolbar does.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Licensing.&lt;/b&gt; License keys are now checked against TimeCal
         specifically rather than the store account they came from. Existing
-        keys, including beta keys, are unaffected.</li>
-    <li><b>Two prompts on first launch after upgrading.</b> Because of the
+        keys, including beta keys, are unaffected.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Two prompts on first launch after upgrading.&lt;/b&gt; Because of the
         identifier change above, macOS asks permission to use your saved
-        license and wants your keychain password for it. Choose <b>Always
-        Allow</b> and it will not ask again. It will also ask for calendar
+        license and wants your keychain password for it. Choose &lt;b&gt;Always
+        Allow&lt;/b&gt; and it will not ask again. It will also ask for calendar
         access once more. Both are one time. If you do deny the keychain
         prompt, TimeCal now says so plainly instead of behaving as though
-        you had never bought it.</li>
-</ul>
+        you had never bought it.&lt;/li&gt;
+&lt;/ul&gt;
 
-</body>
-</html>
-]]></description>
-            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.9-b323-201845a.zip" length="4774070" type="application/octet-stream" sparkle:edSignature="ZTgMTr1v80IwHfQ2CyNNZa3tKT02LrwACzubxyMKGueDJKp1cnsynGi0KKso/xfSWURP85thHu1DbqRAXiphBg=="/>
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+            <enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-0.1.9-b323-201845a.zip" length="4774070" type="application/octet-stream" sparkle:edSignature="ZTgMTr1v80IwHfQ2CyNNZa3tKT02LrwACzubxyMKGueDJKp1cnsynGi0KKso/xfSWURP85thHu1DbqRAXiphBg=="></enclosure>
         </item>
     </channel>
-</rss>
+</rss><!-- sparkle-signatures:
+edSignature: KhXU9WztWlDChuiemJ6Rgh0BeuHtLzagT+WRiTPHvvOTgu1nZPiR2rRL/ciSklpwAHJDeDCYs26N+DgaBEO5DQ==
+length: 23466
+-->
