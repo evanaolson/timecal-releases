@@ -3,7 +3,15 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>TimeCal</title>
-        <item><title>1.0.0</title><pubDate>Mon, 26 Oct 2026 18:57:26 +0000</pubDate><sparkle:version>1766</sparkle:version><sparkle:shortVersionString>1.0.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description>&lt;h2&gt;TimeCal for Mac 1.0&lt;/h2&gt;
+        <item><title>1.0.1</title><pubDate>Mon, 02 Nov 2026 05:48:03 +0000</pubDate><sparkle:version>1795</sparkle:version><sparkle:shortVersionString>1.0.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description>&lt;h2&gt;TimeCal for Mac 1.0.1&lt;/h2&gt;
+&lt;p&gt;Version 1.0.1 adds a free 14-day trial, so you can try TimeCal on your own calendars before you buy.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Try it first.&lt;/b&gt; Start a free 14-day trial from the welcome screen. No card required. Your trial key arrives by email and unlocks everything.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Know where you stand.&lt;/b&gt; A small card at the bottom of the sidebar shows how many days are left, and takes you to the purchase page when you are ready.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Buy when you decide.&lt;/b&gt; When the trial ends, your groups, rules, and settings stay as you arranged them. Buy once, enter your key, and pick up where you left off. Settings shows your trial end date and accepts a purchased key at any time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;macOS 15 or later. Apple Silicon and Intel Macs.&lt;/p&gt;
+</description><enclosure url="https://github.com/evanaolson/timecal-releases/releases/download/builds/TimeCal-1.0.1-b1795-ab3367da.zip" length="8801755" type="application/octet-stream" sparkle:edSignature="Cnt67ds+sDKia18ePiTnLecSb0V1X7LjDOa5a9jyA5tHVrGfCek0Du/nFA/tLEX+w5FcOOyLmLfKEsvJffcKAQ=="></enclosure></item><item><title>1.0.0</title><pubDate>Mon, 26 Oct 2026 18:57:26 +0000</pubDate><sparkle:version>1766</sparkle:version><sparkle:shortVersionString>1.0.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description>&lt;h2&gt;TimeCal for Mac 1.0&lt;/h2&gt;
 &lt;p&gt;TimeCal for Mac is out of beta. Version 1.0 brings your calendars together on a timeline you can zoom, organize, and edit.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;b&gt;Your calendars, together.&lt;/b&gt; See iCloud, Google, Exchange, and other calendars from your Mac’s Calendar app in one place.&lt;/li&gt;
@@ -371,6 +379,6 @@ worth having and fixes a handful of things that were quietly wrong.&lt;/p&gt;
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: KhXU9WztWlDChuiemJ6Rgh0BeuHtLzagT+WRiTPHvvOTgu1nZPiR2rRL/ciSklpwAHJDeDCYs26N+DgaBEO5DQ==
-length: 23466
+edSignature: ah2hu/8r4Qcphnjlg6g8ZVlkP4vryFq1Z9OWIVUX0RmVO5Crb9yKylK3Nod2S3acFdnDH78xxa7ortzI9jniAQ==
+length: 24940
 -->
